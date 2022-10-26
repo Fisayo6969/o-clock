@@ -1,0 +1,78 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.items {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured__card {
+    width: 28em;
+    position: relative;
+    text-align: center;
+    background-color: var(--container-color);
+    padding-top: 2rem;
+    border: 1px solid var(--border-color);
+    overflow-y: hidden;
+    transition: .3s;
+}
+
+.featured__tag {
+    background-color: var(--first-color);
+    padding: .5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -1rem;
+    top: 3rem;
+}
+
+.featured__img {
+    height: 214px;
+    margin-bottom: var(--mb-1);
+}
+
+.featured__title,
+.featured__price {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+}
+
+.featured__title {
+    text-transform: uppercase;
+    margin-bottom: var(--mb-0-75);
+}
+
+.featured__price {
+    display: block;
+    color: var(--first-color);
+    transition: .3s;
+}
+
+.featured__button {
+    font-size: var(--small-font-size);
+    transform: translateY(1rem);
+    opacity: 0;
+}
+
+.featured__card:hover {
+    box-shadow: 0 12px 32px rgba(82, 82, 82, 0.1);
+    padding: 2rem 0 3rem 0;
+}
+
+.featured__card:hover .featured__button {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.featured__card:hover .featured__price {
+    margin-bottom: var(--mb-1-5);
+}
+
+/* For large devices */
+@media screen and (min-width: 1034px) {  
+}
