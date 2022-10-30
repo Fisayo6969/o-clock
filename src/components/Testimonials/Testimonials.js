@@ -1,5 +1,4 @@
-import React from 'react'
-import './Testimonials.css';
+import React from 'react';
 import testimonial2 from '../Testimonials/testimonial2.jpg';
 import testimonial3 from '../Testimonials/testimonial3.jpg';
 import testimonial from '../Testimonials/testimonial.png';

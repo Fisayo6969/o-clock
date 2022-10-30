@@ -1,7 +1,5 @@
 import React from 'react'
 import home from '../New Collections/home.png'
-import './Newcollections.css';
-import '../Public.css';
 function Newcollections() {
     return (
         <>

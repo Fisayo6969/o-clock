@@ -1,5 +1,4 @@
-import React from 'react'
-import './Story.css';
+import React from 'react';
 import story from '../Our Story/story.png';
 
 function Story() {

@@ -1,5 +1,4 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
 function Footer() {
   return (
     <>
@@ -72,7 +71,7 @@ function Footer() {
           </div>
         </div>
 
-        <span className="footer__copy">© Oluwafisayomi. All rigths reserved</span>
+        <span className="footer__copy">© Fisayomi.</span>
       </footer>
     </>
   )

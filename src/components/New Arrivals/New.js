@@ -1,5 +1,4 @@
 import React from 'react'
-import './New.css';
 // import new1 from '../New Arrivals/new1.png';
 // import new2 from '../New Arrivals/new2.png';
 // import new3 from '../New Arrivals/new3.png';

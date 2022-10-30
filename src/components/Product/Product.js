@@ -1,5 +1,4 @@
 import React from 'react';
-import './Product.css';
 import product2 from '../Product/product2.png';
 import product3 from '../Product/product3.png';
 import product4 from '../Product/product4.png';
