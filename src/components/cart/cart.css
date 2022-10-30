@@ -1,11 +1,14 @@
 /*=============== CART ===============*/
+.blur{
+    opacity: 97%;
+}
 .cart {
     position: fixed;
     background-color: var(--body-color);
     z-index: var(--z-fixed);
     width: 100%;
     height: 100%;
-    top: 10%;
+    top: 6%;
     right:-0%;
     padding: 1.5rem 2rem;
     transition: .4s;

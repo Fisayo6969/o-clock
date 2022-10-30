@@ -8,66 +8,66 @@ function New() {
     return (
         <>
             {/* MAIN  */}
-            <main class="main">
+            <main className="main">
                 {/* <!--======= NEW ======--> */}
-                <section class="new section container" id="new">
-                    <h2 class="section__title">
+                <section className="new section container" id="new">
+                    <h2 className="section__title">
                         New Arrivals
                     </h2>
 
-                    <div class="new__container">
-                        <div class="swiper new-swiper">
-                            <div class="swiper-wrapper">
-                                {/* <article class="new__card swiper-slide">
-                                    <span class="new__tag">New</span>
+                    <div className="new__container">
+                        <div className="swiper new-swiper">
+                            <div className="swiper-wrapper">
+                                {/* <article className="new__card swiper-slide">
+                                    <span className="new__tag">New</span>
 
-                                    <img src={new1} alt="" class="new__img" />
+                                    <img src={new1} alt="" className="new__img" />
 
-                                    <div class="new__data">
-                                        <h3 class="new__title">Longines rose</h3>
-                                        <span class="new__price">$980</span>
+                                    <div className="new__data">
+                                        <h3 className="new__title">Longines rose</h3>
+                                        <span className="new__price">$980</span>
                                     </div>
 
-                                    <button class="button new__button">ADD TO CART</button>
+                                    <button className="button new__button">ADD TO CART</button>
                                 </article>
 
-                                <article class="new__card swiper-slide">
-                                    <span class="new__tag">New</span>
+                                <article className="new__card swiper-slide">
+                                    <span className="new__tag">New</span>
 
-                                    <img src={new2} alt="" class="new__img" />
+                                    <img src={new2} alt="" className="new__img" />
 
-                                    <div class="new__data">
-                                        <h3 class="new__title">Jazzmaster</h3>
-                                        <span class="new__price">$1150</span>
+                                    <div className="new__data">
+                                        <h3 className="new__title">Jazzmaster</h3>
+                                        <span className="new__price">$1150</span>
                                     </div>
 
-                                    <button class="button new__button">ADD TO CART</button>
+                                    <button className="button new__button">ADD TO CART</button>
                                 </article>
 
-                                <article class="new__card swiper-slide">
-                                    <span class="new__tag">New</span>
+                                <article className="new__card swiper-slide">
+                                    <span className="new__tag">New</span>
 
-                                    <img src={new3} alt="" class="new__img" />
+                                    <img src={new3} alt="" className="new__img" />
 
-                                    <div class="new__data">
-                                        <h3 class="new__title">Dreyfuss gold</h3>
-                                        <span class="new__price">$750</span>
+                                    <div className="new__data">
+                                        <h3 className="new__title">Dreyfuss gold</h3>
+                                        <span className="new__price">$750</span>
                                     </div>
 
-                                    <button class="button new__button">ADD TO CART</button>
+                                    <button className="button new__button">ADD TO CART</button>
                                 </article> */}
 
-                                <article class="new__card swiper-slide">
-                                    <span class="new__tag">New</span>
+                                <article className="new__card swiper-slide">
+                                    <span className="new__tag">New</span>
 
-                                    <img src={new4} alt="" class="new__img" />
+                                    <img src={new4} alt="" className="new__img" />
 
-                                    <div class="new__data">
-                                        <h3 class="new__title">Portuguese rose</h3>
-                                        <span class="new__price">$1590</span>
+                                    <div className="new__data">
+                                        <h3 className="new__title">Portuguese rose</h3>
+                                        <span className="new__price">$1590</span>
                                     </div>
 
-                                    <button class="button new__button">ADD TO CART</button>
+                                    <button className="button new__button">ADD TO CART</button>
                                 </article>
                             </div>
                         </div>
